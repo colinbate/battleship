@@ -1,0 +1,32 @@
+{
+  "name": "battleship",
+  "version": "1.0.0",
+  "description": "Reactive web version of the classic board game.",
+  "main": "brunch-config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colinbate/battleship.git"
+  },
+  "keywords": [
+    "game",
+    "rx",
+    "battleship"
+  ],
+  "author": "Colin Bate <colin@colinbate.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/colinbate/battleship/issues"
+  },
+  "homepage": "https://github.com/colinbate/battleship#readme",
+  "devDependencies": {
+    "auto-reload-brunch": "^2.1.0",
+    "babel-brunch": "^6.0.2",
+    "brunch": "^2.6.1"
+  },
+  "dependencies": {
+    "yolk": "^0.10.1"
+  }
+}

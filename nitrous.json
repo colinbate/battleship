@@ -1,0 +1,6 @@
+{
+  "template": "nodejs", 
+  "ports": [3333],
+  "name": "Battleship",
+  "description": "Reactive web version of the classic board game."
+}
