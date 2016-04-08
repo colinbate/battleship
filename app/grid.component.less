@@ -1,0 +1,38 @@
+.grid {
+  background-color: #eee;
+  border-right: 1px solid #444;
+  border-bottom: 1px solid #444;
+  float: left;
+  
+  &:before, &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+.space {
+  float: left;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-left: 1px solid #444;
+  border-top: 1px solid #444;
+  text-indent: -999px;
+  box-sizing: border-box;
+  
+  &:nth-child(11n+1) {
+    clear: left;
+    text-indent: 0;
+  }
+  &:nth-child(-n+11) {
+    text-indent: 0;
+  }
+  &:first-child {
+    border: 0;
+    background-color: white;
+  }
+}
